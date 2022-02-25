@@ -1,2 +1,2 @@
-# tanvin33.github.io
-Tanvi's Personal Website
+# Tanvi Namjoshi
+Personal Website
