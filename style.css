@@ -8,7 +8,7 @@ body {
 h1 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 1.3em/52px;
+  line-height: 1.0rem;
 }
 
 h2 {
@@ -24,9 +24,8 @@ h3 {
 }
 
 section {
-  max-width: 34em;
+  max-width: 45em;
   margin: auto;
-  padding: 0 1em;
 }
 
 a:link {
@@ -41,8 +40,44 @@ a:hover {
   color: #0071bc;
 }
 
-@media screen and (max-width: 25em) {
+@media screen and (max-width: 10rem) {
   body {
     font-size: 90%;
   }
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  /* Remove the next line if you want the span to appear next to the h1 */
+  justify-content: space-between;
+
+  border-bottom: 2px solid #000;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+@media screen and (max-width: 10rem) {
+  .column {
+    width: 100%;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.right {
+  text-align: right;
 }
