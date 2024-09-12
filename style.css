@@ -100,3 +100,40 @@ section.highlight {
   padding: 10px;
   margin: 10px 0px 10px 10px;
 }
+
+.post-image {
+  margin: 10px;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Styling for rows */
+.single-image-row {
+  display: block;
+}
+
+.double-image-row,
+.triple-image-row {
+  display: flex;
+  gap: 10px;
+}
+
+.double-image-row img {
+  width: 49%;
+  /* Adjust width for 2 images in a row */
+}
+
+.triple-image-row img {
+  width: 32%;
+  /* Adjust width for 3 images in a row */
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
