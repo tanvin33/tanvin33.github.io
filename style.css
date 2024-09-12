@@ -79,6 +79,14 @@ header {
   flex: 50%;
 }
 
+.column_small {
+  flex: 40%;
+}
+
+.column_big {
+  flex: 60%;
+}
+
 @media screen and (max-width: 10rem) {
   .column {
     width: 100%;
@@ -100,7 +108,7 @@ section.highlight {
   background: #f3f3f3;
   border-radius: 3px;
   padding: 10px;
-  margin: 10px 0px 10px 10px;
+  margin: 20px 0px 10px 10px;
 }
 
 .post-image {
