@@ -1,20 +1,25 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'helvetica', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 1.5em/26px;
+  background-color: #ffffff;
 }
 
 h1 {
+  font-family: 'georgia', serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.0rem;
 }
 
 h2 {
-  font-weight: 700;
+  font-family: 'georgia', serif;
+  font-weight: bold;
   font-size: 30px;
-  line-height: 1.3em/39px;
+  line-height: 150%;
+  border-bottom: 2px solid #000;
 }
 
 h3 {
@@ -23,21 +28,28 @@ h3 {
   line-height: 1.3em/26px;
 }
 
+strong {
+  font-weight: bold;
+}
+
 section {
   max-width: 45em;
   margin: auto;
 }
 
 a:link {
-  color: #000000;
+  color: #A63A50;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #000000;
+  color: #A63A50;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #0071bc;
+  color: #90BEDE;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 10rem) {
@@ -80,4 +92,11 @@ header {
 
 .right {
   text-align: right;
+}
+
+section.highlight {
+  background: #f3f3f3;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px 0px 10px 10px;
 }
