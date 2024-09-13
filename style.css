@@ -80,11 +80,11 @@ header {
 }
 
 .column_small {
-  flex: 40%;
+  flex: 45%;
 }
 
 .column_big {
-  flex: 60%;
+  flex: 55%;
 }
 
 @media screen and (max-width: 10rem) {
