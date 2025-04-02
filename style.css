@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   font-size: 17px;
   line-height: 1.5em/26px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 h1 {
@@ -34,18 +34,23 @@ strong {
   font-weight: bold;
 }
 
+.honor {
+  margin-bottom: 10em;
+  color: #197278;
+}
+
 section {
   max-width: 45em;
   margin: auto;
 }
 
 a:link {
-  color: #A63A50;
+  color: #c44536;
   text-decoration: none;
 }
 
 a:visited {
-  color: #A63A50;
+  color: #c44536;
   text-decoration: none;
 }
 
@@ -82,6 +87,7 @@ header {
 .column_small {
   flex: 45%;
 }
+
 
 .column_big {
   flex: 55%;
